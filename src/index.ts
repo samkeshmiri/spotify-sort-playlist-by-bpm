@@ -10,10 +10,6 @@ dotenv.config();
 const port = process.env.PORT;
 const app = express();
 
-// TODO: see if userId is returned on login instead of another call on /me
-// TODO: get playlist id
-// TODO: add request types
-
 const argv = yargs
   .usage("Usage: -id <id>")
   .option("id", {
